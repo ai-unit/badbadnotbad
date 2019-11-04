@@ -1,0 +1,179 @@
+@import url("//hello.myfonts.net/count/39e11e");
+
+@font-face {
+  font-weight: 600;
+  font-style: italic;
+  font-family: "Fixture";
+  src: url("fonts/Fixture-SemiBoldItalic.eot");
+  src:
+    url("fonts/Fixture-SemiBoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/Fixture-SemiBoldItalic.woff2") format("woff2"),
+    url("fonts/Fixture-SemiBoldItalic.woff") format("woff"),
+    url("fonts/Fixture-SemiBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Inter";
+  src:
+    url("fonts/Inter-Regular.woff2") format("woff2"),
+    url("fonts/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Inter";
+  src:
+    url("fonts/Inter-Italic.woff2") format("woff2"),
+    url("fonts/Inter-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Inter";
+  src:
+    url("fonts/Inter-Medium.woff2") format("woff2"),
+    url("fonts/Inter-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 500;
+  font-style: italic;
+  font-family: "Inter";
+  src:
+    url("fonts/Inter-MediumItalic.woff2") format("woff2"),
+    url("fonts/Inter-MediumItalic.woff") format("woff");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  max-width: 50rem;
+
+  margin: 0 auto;
+  padding: 2rem;
+
+  background-color: #efefef;
+
+  font-family: Inter, sans-serif;
+  font-size: 1.5em;
+
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Fixture", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 5em;
+
+  letter-spacing: 4px;
+
+  line-height: 1;
+
+  color: #99f;
+
+  word-wrap: break-word;
+}
+
+@media (max-width: 700px) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 2.5em;
+  }
+}
+
+hr {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  border: 0;
+  border-bottom: 4px solid #99f;
+}
+
+a {
+  color: #99f;
+
+  font-weight: 500;
+  font-style: italic;
+
+  text-decoration: none;
+
+  border-bottom: 3px solid #99f;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  padding: 0;
+
+  list-style: none;
+}
+
+fieldset {
+  padding: 0;
+  margin-bottom: 1rem;
+
+  border: 0;
+}
+
+label {
+  display: block;
+}
+
+button,
+input,
+textarea {
+  padding: 1rem;
+
+  border: 0;
+
+  background-color: #99f;
+
+  color: #000;
+
+  font-family: Arial, sans-serif;
+}
+
+input,
+textarea {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+textarea {
+  height: 5rem;
+}
+
+button {
+  margin-top: 1rem;
+
+  cursor: pointer;
+}
